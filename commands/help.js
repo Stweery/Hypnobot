@@ -17,7 +17,7 @@ module.exports = {
             {name: "2. Moderation commands.", value: "Type `.help mod` to show the Mod. Category.", inline: true},
             {name: "3. Util.", value: "Type `.help util` to show the Util category.", inline: false},
         )
-        .setFooter("Developed by Steer#6969");
+        .setFooter("Developed by Steer#6969, thank you to Astro#6666 for the sick profile pic <3.");
         message.channel.send(mainembed);
         }
         if(lower === "fun") {
